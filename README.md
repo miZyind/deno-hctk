@@ -48,11 +48,11 @@ $ deno run --allow-read mod_cli.ts --text=測試 --dict=cedict.json
 # ===From bundled code===
 
 # Use built-in dictionary
-$ deno run mod_cli --text=測試
+$ deno run hctk --text=測試
 # Output: hk4g4
 
 # Use specific dictionary (Args' order doesn't matter)
-$ deno run --allow-read mod_cli --text=測試 --dict=cedict.json
+$ deno run --allow-read hctk --text=測試 --dict=cedict.json
 # Output: hk4g4
 ```
 
@@ -75,7 +75,7 @@ $ deno run --allow-read=cedict --allow-write=cedict.json cedict_parser_cli.ts ce
 
 # ===From bundled code===
 
-$ deno run --allow-read --allow-write cedict_parser_cli cedict
+$ deno run --allow-read --allow-write cedict_parser cedict
 
-$ deno run --allow-read=cedict --allow-write=cedict.json cedict_parser_cli cedict
+$ deno run --allow-read=cedict --allow-write=cedict.json cedict_parser cedict
 ```
