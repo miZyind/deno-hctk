@@ -1,5 +1,8 @@
 # Deno HantChar to Keyboard 漢字轉鍵盤配置
 
+[![Deno](https://img.shields.io/badge/1.3.1-000?style=for-the-badge&logo=deno)](https://deno.land)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007acc?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
+
 ## Features
 
 Parsing HantChar input to Keyboard output
